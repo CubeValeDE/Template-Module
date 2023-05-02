@@ -1,0 +1,3 @@
+name: CVTemplate
+version: 1.0
+main: de.cubevale.modules.template.Template
