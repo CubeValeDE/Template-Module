@@ -1,4 +1,4 @@
-package me.bapty.test.commands;
+package de.cubevale.modules.template.commands;
 
 import de.cubevale.core.api.command.Command;
 import de.cubevale.core.api.command.CommandOptions;
