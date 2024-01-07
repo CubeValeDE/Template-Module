@@ -1,4 +1,4 @@
-package me.bapty.test.events;
+package de.cubevale.modules.template.events;
 
 import de.cubevale.core.api.event.EventListener;
 import de.cubevale.core.api.events.UserJoinEvent;
