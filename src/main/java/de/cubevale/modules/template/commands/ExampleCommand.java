@@ -2,7 +2,8 @@ package de.cubevale.modules.template.commands;
 
 import de.cubevale.core.api.command.Command;
 import de.cubevale.core.api.command.CommandOptions;
-import de.cubevale.core.api.user.User;
+import de.cubevale.core.api.enums.MessageType;
+import de.cubevale.core.api.user.OnlineUser;
 
 @CommandOptions(
         name = "example",
@@ -11,7 +12,8 @@ import de.cubevale.core.api.user.User;
 )
 public class ExampleCommand extends Command {
     @Override
-    public boolean onCommand(User user, String[] args) {
+    public boolean onCommand(OnlineUser user, String[] args) {
+        user.sendMessage(MessageType.INFO, "I am an example command!");
         return true;
     }
 }
